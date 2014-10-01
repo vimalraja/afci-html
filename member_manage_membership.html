@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <title>AFCI :: Member Login</title>
+    <title>AFCI :: Member Manage Membership</title>
     <!-- Style -->
     
     <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.css" />
     <link href="style.css" rel="stylesheet">
+     <link href="styles/base.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -150,52 +151,57 @@
     <div class="row section">
     	<div class="breadcrumb"><a href="#">Home</a> > <a href="#">My Account</a> > Courses Registration</div>
 	</div><!--row + section-->
-    <h1>Member Login</h1>
+    <h1>Manage Membership</h1>
 
 
     <div class="row section">
 
-
-        <div class="col9 member-login">
-        
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            
-            <div class="login-form">
-                <form action="#">
-                    <div>
-                        <input type="email" placeholder="Email" name="email" />
-                    </div>
-                    <div>
-                        <input type="password" placeholder="Password" name="password" />
-                    </div>
-                    <div>
-                        <input type="checkbox" name="agree" value="Bike">
-                        <label><span><span></span></span>Remember me on this device</label>
-                    </div>
-                    <div class="login-btn">
-                        <input type="submit" value="Log In" />
-                    </div>
-                    <a href="#">Not a member? Click here to register.</a>
-                </form>
-            </div>
-
-
-        </div><!-- /. member-login -->
-
-
-        <div class="col3 login-page sidebar">
-            <h1>Membership</h1>
+        <div class="col3 sidebar">
+            <h1>My Account</h1>
             <ul class="subLinks">
-                <li class="active"><a href="#">Member Login</a></li>
-                <li><a href="#">Become a Member</a></li>
-                <li><a href="#">Member Benifits</a></li>
-                <li><a href="#">Member Policies</a></li>
-                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Manage Courses</a></li>
+                <li><a href="#">Course Registration</a></li>
+                <li><a href="#">Manage Exams</a></li>
+                <li><a href="#">Exam Registrations</a></li>
+                <li><a href="#">Manage Profile</a></li>
+                <li class="active"><a href="#">Membership</a></li>
             </ul>
+        </div>
+
+        <div class="col9 manage-membership">
+        
+            <h5>Heading</h5>
+            <ul class="shrtdtls">
+                <li><em>First Name: </em>John</li>
+                <li><em>Last Name: </em>Jingleheimer</li>
+                <li><em>Degrees: </em>MBA, BA</li>
+            </ul>
+            <section class="afci">
+                <strong>AFCI Consents:</strong>
+                <p>Regulator / Insurance Consent: Yes</p>
+                <p>Member Directory / Practitioner Search Consent: Yes</p>
+
+            <table class="tftable" border="1">
+            <tr><th>Description</th><th>Fee</th></tr>
+            
+            <tr><td>New Membership</td><td>$255</td></tr>
+           
+            </table>
+
+            <div class="confirm-update">
+                 <input type="checkbox" name="confirm" value="Confirm">
+                            <label>I confirm that my license with my college of regulatory body, or final year student status, is current and in good standing.  </label>
+            </div>
+            <input type="text" name="update" class="update-btn" value="Update" />
+
+    
+       </section>
+
         </div>
         
     </div><!-- close .section --> 
-       
+    
+        
     </div><!-- // Container -->
     </div>
 </div><!-- // wrapper -->
@@ -273,7 +279,7 @@
    	<a href="#">Home</a> <a href="#">Career Opportunities</a> <a href="#">Privacy Policy</a> <a href="#">Disclaimer</a> <a href="#">Sitemap</a> Copyright © 2014 </div>
 </div>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
  <script type="text/javascript" src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
 <script type="text/javascript" src="js/jquery.fancyform.js"></script>

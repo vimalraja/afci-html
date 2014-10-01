@@ -1191,6 +1191,300 @@ html.mm-opening .mm-page, html.mm-opening #mm-blocker, html.mm-opening .mm-fixed
 	color:#fff;
 	font-weight:600;
 }
+
+::-webkit-input-placeholder {
+  color: #4d4d4f;
+}
+
+::-moz-placeholder {
+  color: #4d4d4f;
+}
+
+:-ms-input-placeholder {
+  color: #4d4d4f;
+}
+
+input:-moz-placeholder {
+  color: #4d4d4f;
+}
+
+.sidebar .subLinks li.active > a {
+  border-bottom: 1px solid #C7C7C9;
+}
+
+.member-login {
+	padding-bottom: 40px;
+	background: url(../images/bg-hr.png) no-repeat center bottom;
+}
+.login-page.sidebar {
+	display: block;
+}
+.login-form {
+	display: block;
+	margin: 30px auto;
+	color: #000;
+	max-width: 230px;
+}
+.login-form div {
+  margin-bottom: 5px;
+}
+.login-form input[type=email], .login-form input[type=password] {
+  border: 1px solid #c8c8c8;
+  padding: 8px;
+  width: 91%;
+}
+.login-form .login-btn {
+  margin: 18px 0;
+}
+.login-form input[type=submit] {
+  background: #353535;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  width: 99%;
+  border: none;
+  cursor: pointer;
+}
+.login-form input[type=submit]:hover {
+  background: #545454;
+}
+.login-form a {
+  color: #cb4c00;
+}
+
+.course-reg h5 {
+  font: bold 17px/20px Lato, sans-serif;
+  margin-bottom: 10px;
+}
+
+.course-reg em {
+  font-weight: bold;
+}
+
+.course-name {
+  margin-bottom: 10px;
+}
+.course-name li {
+  line-height: 24px;
+}
+
+.regform-wrap form > div {
+  margin-bottom: 25px;
+  color: #000;
+}
+.regform-wrap form > div .sub {
+  display: block;
+  clear: both;
+  margin: 5px 0 5px 28px;
+}
+.regform-wrap form > div .sub small {
+  font: italic normal 14px/20px Lato, sans-serif;
+  color: #000;
+}
+.regform-wrap form > div .sub input[type=text] {
+  border: 1px solid #c8c8c8;
+  padding: 5px;
+  width: 95%;
+}
+
+.radios label {
+  display: block;
+  margin-bottom: 5px;
+}
+.radios span {
+  margin-right: 15px;
+}
+.order-summery {
+  display: block;
+  max-width: 305px;
+}
+.order-summery > ul {
+  padding: 18px 25px;
+  border: 1px solid #000;
+}
+.order-summery li {
+  line-height: 20px;
+}
+.order-summery li span {
+  font-weight: bold;
+  width: 75%;
+  display: inline-block;
+}
+.order-summery .order-total {
+  border-top: 2px solid #000;
+  padding: 15px 0;
+  font-weight: bold;
+}
+.order-summery .sub {
+  display: block;
+  clear: both;
+  margin: 5px 0 20px 28px;
+}
+.order-summery .sub p {
+  font-style: italic;
+}
+
+#order-submit {
+  max-width: 305px;
+  margin: 30px auto;
+  display: block;
+  text-align: center;
+}
+#order-submit input[type="submit"] {
+  background: #353535;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 7px 50px;
+  border: none;
+  cursor: pointer;
+  max-width: 221px;
+}
+
+.manage-membership h5 {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.shrtdtls {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.shrtdtls li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+
+.shrtdtls li em {
+  font-weight: bold;
+}
+
+.afci strong {
+  font-weight: bold;
+  margin-bottom: 14px;
+  display: block;
+}
+.afci p {
+  line-height: 24px;
+}
+.afci .tftable {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  max-width: 281px;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+.afci .tftable th {
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 0px;
+  padding: 10px 8px;
+  border-style: solid;
+  border-color: #729ea5;
+  text-align: left;
+}
+.afci .tftable tr {
+  background-color: #ffffff;
+}
+.afci .tftable tr:nth-child(even) {
+  background: #efefef;
+}
+.afci .tftable td {
+  font-size: 14px;
+  border-width: 0px;
+  padding: 16px 8px;
+  color: black;
+}
+
+.confirm-update {
+  color: black;
+  line-height: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.confirm-update input[type="checkbox"] {
+  float: left;
+}
+.confirm-update label {
+  display: block;
+  width: 89%;
+  float: left;
+}
+
+.update-btn {
+  background: #353535;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 7px 50px;
+  border: none;
+  cursor: pointer;
+  max-width: 221px;
+}
+
+.manage-crc h5 {
+  font: bold 17px/20px Lato, sans-serif;
+  margin-bottom: 10px;
+}
+.manage-crc > .row {
+  margin: 0 -15px;
+}
+.manage-crc .mngftable {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #efefef;
+}
+.manage-crc .mngftable th {
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 0px;
+  padding: 10px 8px;
+  border-style: solid;
+  border-color: #729ea5;
+  text-align: left;
+}
+.manage-crc .mngftable tr {
+  background-color: #ffffff;
+}
+.manage-crc .mngftable tr:nth-child(even) {
+  background: #efefef;
+}
+.manage-crc .mngftable tr:last-child {
+  margin-bottom: 15px;
+}
+.manage-crc .mngftable td {
+  font-size: 14px;
+  border-width: 0px;
+  padding: 16px 8px;
+  color: black;
+}
+.manage-crc .mngftable td.c-title {
+  color: #cb4c00;
+  max-width: 175px;
+}
+.manage-crc .c-chk {
+  text-align: center;
+}
+.manage-crc .leace-crc {
+  color: #cb4c00;
+}
 .accountInfo a.active{
 	color:#cb4b00;
 }
@@ -1805,7 +2099,6 @@ h4{
 	float:right;
 }
 
-
 .checkoutForm .leftColumn{
 	float:left;
 	width:70%;
@@ -1817,6 +2110,19 @@ h4{
 .checkoutForm .leftColumn .column{
 	float:left;
 	width:39%;
+}
+.login-form {
+	margin:30px 0;
+}
+.course-reg {
+margin-left: 0;
+}
+.course-reg .col6 {
+width: 100%;
+}
+.shrtdtls li {
+  display: inline-block;
+  margin-right: 40px;
 }
 
 }
