@@ -1,0 +1,111 @@
+::-webkit-input-placeholder {
+  color: #4d4d4f;
+}
+
+::-moz-placeholder {
+  color: #4d4d4f;
+}
+
+:-ms-input-placeholder {
+  color: #4d4d4f;
+}
+
+input:-moz-placeholder {
+  color: #4d4d4f;
+}
+
+.sidebar .subLinks li.active > a {
+  border-bottom: 1px solid #C7C7C9;
+}
+
+.login-form {
+  display: block;
+  margin: 30px 0;
+  color: #000;
+  max-width: 230px;
+}
+.login-form div {
+  margin-bottom: 5px;
+}
+.login-form input[type=email], .login-form input[type=password] {
+  border: 1px solid #c8c8c8;
+  padding: 8px;
+  width: 91%;
+}
+.login-form .login-btn {
+  margin: 18px 0;
+}
+.login-form input[type=submit] {
+  background: #353535;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  width: 99%;
+  border: none;
+  cursor: pointer;
+}
+.login-form input[type=submit]:hover {
+  background: #545454;
+}
+.login-form a {
+  color: #cb4c00;
+}
+
+.course-reg h5 {
+  font: bold 17px/20px Lato, sans-serif;
+  margin-bottom: 10px;
+}
+
+.course-reg em {
+  font-weight: bold;
+}
+
+.course-name {
+  margin-bottom: 10px;
+}
+.course-name li {
+  line-height: 24px;
+}
+
+.regform-wrap form > div {
+  margin-bottom: 18px;
+  color: #000;
+}
+.regform-wrap form > div .sub {
+  display: block;
+  clear: both;
+  margin: 5px 0 5px 28px;
+}
+.regform-wrap form > div .sub small {
+  font: italic normal 14px/20px Lato, sans-serif;
+  color: #000;
+}
+.regform-wrap form > div .sub input[type=text] {
+  border: 1px solid #c8c8c8;
+  padding: 5px;
+  width: 95%;
+}
+
+.radios label {
+  display: block;
+  margin-bottom: 5px;
+}
+.radios span {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 785px) {
+  .member-login {
+    padding-bottom: 40px;
+    background: url(../images/bg-hr.png) no-repeat center bottom;
+  }
+
+  .login-form {
+    margin: 30px auto;
+  }
+
+  .login-page.sidebar {
+    display: block;
+  }
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>AFCI :: Online Store :: Shopping</title>
+    <!-- Style -->
+    
+    <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.css" />
+    <link href="style.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- ARIA Script -->
+    <!--[if IE 7]>
+    <script type="text/javascript">
+      $.fn.setup_navigation = function() { }
+    </script>
+    <script type="text/javascript" src="aria-menu.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<div id="page">
+
+<div class="wrapper">
+	<div class="topBorder"></div> 
+    <header class="header">
+    	<div class="container">
+    	<div class="topLinks group">
+        	<ul class="setOne alignleft">
+            	<li class="subscribe"><a href="#">Subscribe</a>
+            	<li><a href="#">Find a Practitioner</a></li>
+                <li><a href="#">Other Sites</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <div class="setThree alignright">
+            	<label class="icon-search" for="searchBar">Search</label>
+                <input type="text" class="searchBar" placeholder="Search" id="searchBar">
+                <button class="btnSearch">Go</button>
+            </div>
+            
+            <ul class="setTwo alignright">
+            	<li><a href="#">Members Login</a></li>
+                <li class="textResizer"><a href="#">AAA</a></li>
+                <li class="social"><a href="#" class="facebook">Facebook</a><a href="#" class="twitter">Twitter</a><a href="#" class="linkedin">Linkedin</a><a href="#" class="youtube">Youtube</a></li>
+            </ul>
+            
+        </div><!-- //topLinks -->
+        <h1 class="logo">AFCI Logo</h1>
+        <!-- Main menu for desktop / tab -->
+        <nav class="mainMenu group">
+        	<ul>
+            	<li class="home"><a href="#"><span class="icon ichome"></span>Home</a></li>
+                <li class="education"><a href="#"><span class="icon iceduacation"></span>Education &amp; Certification</a></li>
+                <li class="membership">
+                	<a href="#"><span class="icon icmembership"></span>Membership</a>
+                </li>
+                <li class="mainLogo"><a href="#">Logo</a></li>
+                <li class="resources"><a href="#"><span class="icon icresources"></span>Resources</a></li>
+                <li class="acupuncture"><a href="#"><span class="icon icacupuncture"></span>Acupuncture 101</a></li>
+                <li class="about"><a href="#"><span class="icon icabout"></span>About Us</a></li>
+            </ul>
+        </nav>
+        <!--sticky Menu for desktop / tab -->
+        <nav class="stickyMenu mm-fixed-top">
+        	<div class="oranjeBar group">
+        	<span class="stickyLogo"></span>
+        	<ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Education &amp; Certification</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Acupuncture 101</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            </div>
+        </nav>
+        <!-- main menu for mobile only -->
+        <a href="#mobileMenu" class="showMenu">Click</a>
+        <nav id="mobileMenu">
+        	<ul>
+            	<li class="logoText"><h3>Acupuncture Canada</h3></li>
+                <li class="label">Members:</li>
+                <li><a href="#"><span class="icon iclogin"></span><span class="menuText">Login</span></a></li>
+                <li class="null"><!-- blank --></li>
+                <li class="label">Menu:</li>
+                <li><a href="#"><span class="icon ichome"></span><span class="menuText">Home</span></a></li>
+                <li>
+                	<a href="#"><span class="icon icedu"></span><span class="menuText">Education &amp; Certification</span></a>
+                    <ul>
+                        <li><a href="#">Student Login</a></li>
+                        <li><a href="#">CAFCI Certification</a></li>
+                        <li><a href="#">Benefits</a></li>
+                         <li><a href="#">Obtaining Employer Support</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Examinations</a></li>
+                         <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Faculty and Research</a></li>
+                        <li><a href="#">Education Insitutions</a></li>
+                        <li><a href="#">Regulatory Bodies</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="icon icmem"></span><span class="menuText">Membership</span></a></li>
+                <li><a href="#"><span class="icon icres"></span><span class="menuText">Resources</span></a></li>
+                <li><a href="#"><span class="icon icacu"></span><span class="menuText">Acupuncture 101</span></a></li>
+                <li><a href="#"><span class="icon icabo"></span><span class="menuText">About Us</span></a></li>
+                <li class="null"><!-- blank --></li>
+                <li class="label">Admin Bar Menu - Rename This:</li>
+                <li><a href="#"><span class="icon icfin"></span><span class="menuText">Find a Practitioner</span></a></li>
+                <li><a href="#"><span class="icon icoth"></span><span class="menuText">Other Sites</span></a></li>
+                <li><a href="#"><span class="icon icmed"></span><span class="menuText">Media</span></a></li>
+                <li><a href="#"><span class="icon icsto"></span><span class="menuText">Store</span></a></li>
+                <li><a href="#"><span class="icon icsus"></span><span class="menuText">Subscribe to our Newsletter</span></a></li>
+                <li class="null"><!-- blank --></li>
+                <li class="label">Connect With Us:</li>
+                <li><a href="#"><span class="icon icfac"></span><span class="menuText">Facebook</span></a></li>
+                <li><a href="#"><span class="icon ictwi"></span><span class="menuText">Twitter</span></a></li>
+                <li><a href="#"><span class="icon iclin"></span><span class="menuText">LinkedIn</span></a></li>
+                <li><a href="#"><span class="icon icyou"></span><span class="menuText">Youtube</span></a></li>
+                
+            </ul>
+        </nav>
+        </div>
+        <!-- close .container -->
+    </header>
+    <div class="contents">
+	<div class="container">	
+    <div class="row section">
+    	<div class="breadcrumb"><a href="#">Home</a> > <a href="#">Resources</a> > Online Store</div>
+	</div><!--row + section-->
+    <h1>Online Store</h1>
+    <div class="row section">
+        <div class="col9 onlineStoreWrap">
+        	<div class="controlBar">
+                <div class="col3">
+                <select>
+                	<option class="dim">Low to High</option>
+                    <option>Low</option>
+                    <option>High</option>
+                </select>
+                </div>
+                <div class="col3">
+                <select>
+                	<option class="dim">Select a Category</option>
+                    <option>Category 01</option>
+                    <option>Category 02</option>
+                </select>
+                </div>
+                <div class="col3">
+                <select>
+                	<option class="dim">Items per page</option>
+                    <option>10</option>
+                    <option>20</option>
+                </select>
+                </div>
+                <div class="col3">
+                <div class="cartWrap">
+                	<div class="cartAmount">$150</div>
+                    <div class="cartItems">(2 items)</div>
+                </div>
+                </div>
+            	
+                
+                
+            </div>
+            <div class="row">
+             <ul class="pagination">
+            	<li><a href="#" class="prev">Previous</a></li>
+                <li><a href="#" class="current">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#" class="next">Next</a></li>
+            </ul>
+            </div>
+            <div class="row">
+            	<ul class="productLists">
+                	<li>
+                        <div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="productHolder">
+                            <div class="imageHolder">
+                            	<img src="images/img-product01.jpg" alt="product">
+                            </div>
+                            <div class="productDetails">
+                                <h3 class="productTitle">Item Name</h3>
+                                <h3 class="price">$75</h3>
+                                <p class="productDesc">Lorem ipsum dolor sit amet sed Do Ei Usmod Tempor Incidid Unt Ut</p>
+                                <a href="#" class="btnCart">Add To Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+             <ul class="pagination">
+            	<li><a href="#" class="prev">Previous</a></li>
+                <li><a href="#" class="current">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#" class="next">Next</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="col3 sidebar">
+            <h1>Membership</h1>
+            <ul class="subLinks">
+                <li><a href="#">Member Login</a></li>
+                <li><a href="#">Become a Member</a></li>
+                <li><a href="#">Member Benefits</a></li>
+                <li><a href="#">Member Policies</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+    </div><!-- close .section --> 
+    
+    <div class="row section">
+    	<div class="col3">
+        <ul class="chickletsInner">
+            <li><a href="#"><img src="images/icon-book_courses_inner.jpg" alt="Icon for Book an Exam">Book an Exam</a></li>
+            <li><a href="#"><img src="images/icon-find_inner.jpg" alt="Find a Practitioner">Find a Practitioner</a></li>
+        </ul>
+        </div>
+        <div class="col3">
+        	<div class="article">
+        	<h3>Membership</h3>
+            <ul>
+            	<li><a href="#">Member Login</a></li>
+                <li><a href="#">Become a Member</a></li>
+                <li><a href="#">Member Benefits</a></li>
+                <li><a href="#">Member Policies</a></li>
+                <li><a href="#">FAQs</a></li>
+			</ul>
+            </div>
+        </div>
+        <div class="col3">
+        	<div class="article">
+        	<h3>Special Events </h3>
+            <ul>
+            	<li><a href="#"> Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Sed Do Ei Usmod Tempor Incidid Unt Ut Dolor Mag</a></li>
+                <li><a href="#">Idunt ut labore et dolore</a></li>
+			</ul>
+            </div>
+        </div>
+        <div class="col3">
+        	<div class="article weeklyPoll">
+                <h3>Weekly Poll</h3>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h5>
+                <ul>
+                    <li><input type="radio" name="radio" id="radOption01" /><label for="radOption01"> Option 1 magnam aliquam </label> </li>
+                    <li><input name="radio" type="radio" id="radOption02" /> <label for="radOption02">Option 2 magnam aliquam </label>  </li>
+                    <li><input name="radio" type="radio" id="radOption03" /> <label for="radOption03">Option 3 magnam aliquam </label>  </li>
+                    <li><button class="btnVote">Vote</button></li>
+               </ul>   
+            </div>
+        </div>        
+    </div>     
+    </div><!-- // Container -->
+    </div>
+</div><!-- // wrapper -->
+<div class="footer">
+	<div class="container">
+    <div class="row">
+	<div class="col9 group">
+    	<div class="footerSection">
+    	<h4><a href="#">Education &amp; Certification</a></h4>
+        <ul>
+        	<li>Lorem ipsum dolor</li>
+            <li>Sit amet, consectetur </li>
+            <li>Adipisicing elit, sed do eiusmod </li>
+            <li>Tempor incididunt ut labore this is a long link on two lines</li>
+            <li>At dolore magna aliqua.</li>
+        </ul>
+        </div>
+        <div class="footerSection">
+    	<h4><a href="#">Membership</a></h4>
+        <ul>
+        	<li>Lorem ipsum dolor</li>
+            <li>Sit amet, consectetur </li>
+            <li>Adipisicing elit, sed do eiusmod </li>
+            <li>Tempor incididunt ut labore this is a long link on two lines</li>
+            <li>At dolore magna aliqua.</li>
+        </ul>
+        </div>
+        <div class="footerSection">
+    	<h4><a href="#">Resources</a></h4>
+        <ul>
+        	<li>Lorem ipsum dolor</li>
+            <li>Sit amet, consectetur </li>
+            <li>Adipisicing elit, sed do eiusmod </li>
+            <li>Tempor incididunt ut labore this is a long link on two lines</li>
+            <li>At dolore magna aliqua.</li>
+        </ul>
+        </div>
+        <div class="footerSection">
+    	<h4><a href="#">Acupuncture 101</a></h4>
+        <ul>
+        	<li>Lorem ipsum dolor</li>
+            <li>Sit amet, consectetur </li>
+            <li>Adipisicing elit, sed do eiusmod </li>
+            <li>Tempor incididunt ut labore this is a long link on two lines</li>
+            <li>At dolore magna aliqua.</li>
+        </ul>
+        </div>
+        <div class="footerSection">
+    	<h4><a href="#">About Us</a></h4>
+        <ul>
+        	<li>Lorem ipsum dolor</li>
+            <li>Sit amet, consectetur </li>
+            <li>Adipisicing elit, sed do eiusmod </li>
+            <li>Tempor incididunt ut labore this is a long link on two lines</li>
+            <li>At dolore magna aliqua.</li>
+        </ul>
+        </div>
+        
+    </div>
+    <div class="col3">
+    	<div class="footerSection">
+    	<h4>Acupuncture Canada</h4>
+        <p>895 Don Mills Road, Tower II <br> Suite 109, North York, ON  <br>M3C 2W3</p>
+        </div>
+        <div class="footerSection placeholderTwitter">
+    	
+        </div>
+    </div>
+    
+    </div>
+    </div>
+</div><!-- //footer -->
+<div class="siteinfo">
+	<div class="container">
+   	<a href="#">Home</a> <a href="#">Career Opportunities</a> <a href="#">Privacy Policy</a> <a href="#">Disclaimer</a> <a href="#">Sitemap</a> Copyright © 2014 </div>
+</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancyform.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('nav#mobileMenu').mmenu({
+			slidingSubmenus: false
+		});
+		
+		var stickyNavTop = $('#page').offset().top;  
+  
+		var stickyNav = function(){  
+			var scrollTop = $(window).scrollTop();  
+       
+			if (scrollTop > stickyNavTop) {    
+	 			$('.stickyMenu').css('top','0').css('display','block'); 
+			} else {  
+    			$('.stickyMenu').css('display','none');   
+			}
+		};  
+  		
+		stickyNav();  
+  
+		$(window).scroll(function() {  
+			stickyNav();  
+		}); 
+		$(".homeDropdown").transformSelect();
+		$(".controlBar select").transformSelect();
+		$(".formRow select").transformSelect();
+		$(".weeklyPoll input:radio").transformRadio({
+			checked : "images/radio_checked.png",
+			unchecked : "images/radio_unchecked.png",
+			disabledChecked: "/images/filterBoxCheckboxDisabledChecked.jpg",
+			disabledUnchecked: "/images/checkbox2_disabled.png"
+		});
+	}); 
+
+</script>
+</body>
+</html>
