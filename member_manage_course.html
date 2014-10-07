@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <title>AFCI :: Member Manage Course</title>
+    <title>AFCI - Member Dashboard</title>
     <!-- Style -->
     
     <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.css" />
     <link href="style.css" rel="stylesheet">
-     <link href="styles/base.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -63,22 +62,21 @@
         	<ul>
             	<li class="home"><a href="#"><span class="icon ichome"></span>Home</a></li>
                 <li class="education"><a href="#"><span class="icon iceduacation"></span>Education &amp; Certification</a></li>
-                <li class="membership">
-                	<a href="#"><span class="icon icmembership"></span>Membership</a>
-                </li>
+                <li class="membership"><a href="#"><span class="icon icmembership"></span>Membership</a></li>
                 <li class="mainLogo"><a href="#">Logo</a></li>
                 <li class="resources"><a href="#"><span class="icon icresources"></span>Resources</a></li>
                 <li class="acupuncture"><a href="#"><span class="icon icacupuncture"></span>Acupuncture 101</a></li>
                 <li class="about"><a href="#"><span class="icon icabout"></span>About Us</a></li>
             </ul>
             <div class="memberInfo group">
-           	  <div class="memberName">Welcome, John Jingleheimer! </div>
+           	  <div class="memberName">My Account</div>
                 <div class="accountInfo">
+                	<a href="#" class="active">Member Dashboard</a> |   
                 	<a href="#">Manage Registrations </a> |    
                     <a href="#">Community</a> |   
                     <a href="#">Members Resources</a> |   
                     <a href="#">Faculty</a> |    
-                    <a href="#">Manage Your Account</a>
+                    <a href="#">Sign Out</a>
                 </div>
           </div>
         </nav>
@@ -149,7 +147,7 @@
     <div class="contents">
 	<div class="container">	
     <div class="row section">
-    	<div class="breadcrumb"><a href="#">Home</a> > <a href="#">My Account</a> > Courses Registration</div>
+    	<div class="breadcrumb"><a href="#">Home</a> &gt; <a href="#">My Account</a> &gt; Courses Registration</div>
 	</div><!--row + section-->
     <h1>Manage Courses</h1>
 
@@ -159,7 +157,7 @@
         <div class="col3 sidebar">
             <h1>My Account</h1>
             <ul class="subLinks">
-                <li> class="active"<a href="#">Manage Courses</a></li>
+                <li class="active"><a href="#">Manage Courses</a></li>
                 <li><a href="#">Course Registration</a></li>
                 <li><a href="#">Manage Exams</a></li>
                 <li><a href="#">Exam Registrations</a></li>
@@ -174,46 +172,76 @@
         
             <!-- <div class="row"> -->
                 <table class="mngftable" border="1">
-                <tr><th>Select</th><th>Course Name</th><th>Location</th><th>Start Date - End Date</th><th>Transfer</th></tr>            
+                <tr><th>Select</th><th>Course Name</th><th class="hideMobile">Location</th><th class="hideMobile">Start Date - End Date</th><th>Transfer</th></tr>            
                 <tr>
                     <td class="c-chk"><form action=""> <input type="checkbox" name="agree" value="1"></form></td>
                     <td class="c-title">Foundations of Anatomical Acupuncture</td>
-                    <td>Toronto</td>
-                    <td>February 28 -  March 2, 2014</td>
-                    <td><a href="">Transfer Course</a></td>
+                    <td class="hideMobile">Toronto</td>
+                    <td class="hideMobile">February 28 -  March 2, 2014</td>
+                    <td><a href="#" class="showTransferCourse">Transfer Course</a></td>
                 </tr>
 
                 <tr>
                     <td class="c-chk"><form action=""> <input type="checkbox" name="agree" value="1"></form></td>
                     <td class="c-title">Clinical Applications in Anatomical Acupuncture</td>
-                    <td>Toronto</td>
-                    <td>November 14 - 16, 2014</td>
-                    <td><a href="">Transfer Course</a></td>
+                    <td class="hideMobile">Toronto</td>
+                    <td class="hideMobile">November 14 - 16, 2014</td>
+                    <td><a href="#" class="showTransferCourse">Transfer Course</a></td>
                 </tr>
 
                  <tr>
                     <td class="c-chk"><form action=""> <input type="checkbox" name="agree" value="1"></form></td>
                     <td class="c-title">Advanced Acupuncture for Pain Management in Orthopaedic Conditions </td>
-                    <td>Toronto</td>
-                    <td>February 20-22, 2015</td>
-                    <td><a href="">Transfer Course</a></td>
+                    <td class="hideMobile">Toronto</td>
+                    <td class="hideMobile">February 20-22, 2015</td>
+                    <td><a href="#" class="showTransferCourse">Transfer Course</a></td>
                 </tr>
                  <tr>
                     <td class="c-chk"><form action=""> <input type="checkbox" name="agree" value="1"></form></td>
                     <td class="c-title">Basics of Traditional Chinese Medicine </td>
+                    <td class="hideMobile">Toronto</td>
+                    <td class="hideMobile">February 20-22, 2015</td>
+                    <td><a href="#" class="showTransferCourse">Transfer Course</a></td>
+                </tr>
+                </table>
+                <a href="#" class="leace-crc">Leave Course(s)</a>
+				<div class="fullColumn">
+                <button type="button" class="save-btn alignright">Save</button>
+                </div>
+                <h5>Cancelled Courses</h5>
+        
+            <!-- <div class="row"> -->
+                <table class="mngftable" border="1">
+                <tr><th>Course Name</th><th>Location</th><th class="hideMobile">Start Date - End Date</th></tr>            
+                <tr>
+                    <td class="c-title">Foundations of Anatomical Acupuncture</td>
                     <td>Toronto</td>
-                    <td>February 20-22, 2015</td>
-                    <td><a href="">Transfer Course</a></td>
+                    <td class="hideMobile">February 28 -  March 2, 2014</td>
+                </tr>
+
+                <tr>
+                    <td class="c-title">Clinical Applications in Anatomical Acupuncture</td>
+                    <td>Toronto</td>
+                    <td class="hideMobile">November 14 - 16, 2014</td>
+                </tr>
+
+                 <tr>
+                    <td class="c-title">Advanced Acupuncture for Pain Management in Orthopaedic Conditions </td>
+                    <td>Toronto</td>
+                    <td class="hideMobile">February 20-22, 2015</td>
+                </tr>
+                 <tr>
+                    <td class="c-title">Basics of Traditional Chinese Medicine </td>
+                    <td>Toronto</td>
+                    <td class="hideMobile">February 20-22, 2015</td>
                 </tr>
                       
                            
                 </table>
-                <a href="#" class="leace-crc">Leave Course(s)</a>
-
                 
             <!-- </div> -->
         </div>
-        
+       
     </div><!-- close .section --> 
     
         
@@ -282,7 +310,6 @@
         <p>895 Don Mills Road, Tower II <br> Suite 109, North York, ON  <br>M3C 2W3</p>
         </div>
         <div class="footerSection placeholderTwitter">
-    	
         </div>
     </div>
     
@@ -294,10 +321,79 @@
    	<a href="#">Home</a> <a href="#">Career Opportunities</a> <a href="#">Privacy Policy</a> <a href="#">Disclaimer</a> <a href="#">Sitemap</a> Copyright © 2014 </div>
 </div>
 </div>
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
- <script type="text/javascript" src="js/jquery-ui.js"></script>
+
+
+
+<div id="transferCourse" style="display:none">
+<div class="overlay"></div>
+<div class="popupBox">
+	<div class="row">
+    	<h1>Transfer Courses</h1>
+        <p class="textcenter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="row">
+    	<ul class="courseList">
+        	<li class="odd">
+            	<div class="courseDescription">
+                	<h3>AA1: Foundations of Anatomical Acupuncture</h3>	
+                    <ul class="course-name">
+                    <li><span class="strong">Course Type</span>: Course Type</li>
+                    <li><span class="strong">Course Level</span>: Course Level</li>
+                    <li><span class="strong">Location</span>: Toronto</li>
+                    <li><span class="strong">Start Date</span>: Start Date</li>
+                    <li><span class="strong">End Date</span>: End Date</li>
+                    <li><span class="strong">Course Fee</span>: $75.00</li>
+                    <li><a href="#" class="btnCourseDetails">+ Course Details</a></li>
+                	</ul>
+                </div>
+                <div class="courseSelector">
+                	<a href="#" class="buttons">Select Course</a>
+                </div>
+            </li>
+            <li>
+            	<div class="courseDescription">
+                	<h3>AA1: Foundations of Anatomical Acupuncture</h3>	
+                    <ul class="course-name">
+                    <li><span class="strong">Course Type</span>: Course Type</li>
+                    <li><span class="strong">Course Level</span>: Course Level</li>
+                    <li><span class="strong">Location</span>: Toronto</li>
+                    <li><span class="strong">Start Date</span>: Start Date</li>
+                    <li><span class="strong">End Date</span>: End Date</li>
+                    <li><span class="strong">Course Fee</span>: $75.00</li>
+                    <li><a href="#" class="btnCourseDetails">+ Course Details</a></li>
+                	</ul>
+                </div>
+                <div class="courseSelector">
+                	<a href="#" class="buttons">Select Course</a>
+                </div>
+            </li>
+            <li class="odd">
+            	<div class="courseDescription">
+                	<h3>AA1: Foundations of Anatomical Acupuncture</h3>	
+                    <ul class="course-name">
+                    <li><span class="strong">Course Type</span>: Course Type</li>
+                    <li><span class="strong">Course Level</span>: Course Level</li>
+                    <li><span class="strong">Location</span>: Toronto</li>
+                    <li><span class="strong">Start Date</span>: Start Date</li>
+                    <li><span class="strong">End Date</span>: End Date</li>
+                    <li><span class="strong">Course Fee</span>: $75.00</li>
+                    <li><a href="#" class="btnCourseDetails">+ Course Details</a></li>
+                	</ul>
+                </div>
+                <div class="courseSelector">
+                	<a href="#" class="buttons">Select Course</a>
+                </div>
+            </li>	
+        </ul>
+    </div>
+</div>
+</div>
+    
+    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
 <script type="text/javascript" src="js/jquery.fancyform.js"></script>
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
 <script type="text/javascript">
 	$(function() {
 		$('nav#mobileMenu').mmenu({
@@ -315,7 +411,7 @@
     			$('.stickyMenu').css('display','none');   
 			}
 		};  
-  		
+  
 		stickyNav();  
   
 		$(window).scroll(function() {  
@@ -328,7 +424,9 @@
 			disabledChecked: "/images/filterBoxCheckboxDisabledChecked.jpg",
 			disabledUnchecked: "/images/checkbox2_disabled.png"
 		});
-		$( "#accordion" ).accordion();
+		$( ".showTransferCourse" ).click(function() {
+			$('#transferCourse').bPopup();
+		}); 
 	}); 
 
 </script>

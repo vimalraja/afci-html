@@ -1252,7 +1252,12 @@ input:-moz-placeholder {
 .login-form a {
   color: #cb4c00;
 }
-
+.course-reg {
+	margin-left: 0;
+}
+.course-reg .col6 {
+	width: 100%;
+}
 .course-reg h5 {
   font: bold 17px/20px Lato, sans-serif;
   margin-bottom: 10px;
@@ -1286,6 +1291,20 @@ input:-moz-placeholder {
   border: 1px solid #c8c8c8;
   padding: 5px;
   width: 95%;
+}
+
+.date-expr label {
+  padding-right: 28px;
+  background: url(images/calander.png) no-repeat center right;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+.date-expr input[type="text"] {
+  display: inline-block;
+  border: 1px solid #c8c8c8;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
 }
 
 .radios label {
@@ -1421,7 +1440,7 @@ input:-moz-placeholder {
   float: left;
 }
 
-.update-btn {
+.update-btn, .save-btn, .buttons{
   background: #353535;
   color: white;
   font-weight: bold;
@@ -1432,7 +1451,13 @@ input:-moz-placeholder {
   cursor: pointer;
   max-width: 221px;
 }
-
+.save-btn{
+	max-width:150px;
+}
+.buttons:hover{
+	background:#FF6600;
+	color:#fff;
+}
 .manage-crc h5 {
   font: bold 17px/20px Lato, sans-serif;
   margin-bottom: 10px;
@@ -1488,10 +1513,101 @@ input:-moz-placeholder {
 .accountInfo a.active{
 	color:#cb4b00;
 }
+
+.popupBox {
+    position: relative;
+    max-width: 490px;
+    min-width: 280px;
+    padding: 24px;
+    margin: 0 auto;
+    top: 20%;
+    color: #333;
+    background: #fff;
+    border:none;
+	border-top:3px solid #FF6600;
+    text-align: left;
+}
+.popupBox h1{
+	font-size:2.5rem;
+	margin-bottom:25px;
+}
+.popupBox h3{
+	font-size:1.6rem;
+}
+.btnCourseDetails{
+	padding-top:10px;
+	display:inline-block;
+}
+.textcenter{
+	text-align:center;
+}
+.courseList{
+	margin-top:30px;
+}
+.courseList > li{
+	display:table;
+	padding:17px;
+}
+.courseList li.odd{
+	background:#efefef;
+}
+.courseDescription{
+	display:block;
+}
+.courseSelector{
+	display:block;
+	text-align:center;
+}
+.hideMobile{
+	display:none;
+}
+.findapractioner p{
+	margin-bottom:1.8rem;
+}
+.findapractioner h4{
+	font-weight:600;
+	margin-bottom:15px;
+}
+.findapractioner .pagination{
+	float:left;
+	padding:0 0 30px 0;
+}
+.findapractioner .leftColumn, .findapractioner .rightColumn{
+	padding-bottom:30px;
+}
+.leftColumn ol{
+	list-style:decimal;
+	margin-left:15px;
+	margin-bottom:30px;
+	font-weight:600;
+	font-family:lora, serif;
+}
+.leftColumn ol li{
+	padding-bottom:40px;
+}
+.leftColumn ol h5{
+	margin-bottom:3px;
+	font-size:1.5rem;
+	color:#CB4B00;
+}
+.leftColumn ol address, .leftColumn ol a{
+	font-size:1.4rem;
+	font-weight:400;
+}
+.leftColumn ol a{
+	color:#CB4B00;
+}
+.map_canvas{
+	width:99%;
+	margin:0 auto;
+}
 /* TAB*/
 @media (min-width:768px) {
 .showDesktopOnly, .showMobileOnly{
 	display:none;
+}
+.hideMobile{
+	display:inline-block;
 }
 .showTabOnly, .sidebar{
 	display:block;
@@ -1507,6 +1623,9 @@ input:-moz-placeholder {
 	padding:0 2.894736842105263%; /*55px */
 }
 .col6{
+	width:47%;
+}
+.course-reg .col6{
 	width:47%;
 }
 .col8{
@@ -2114,17 +2233,30 @@ h4{
 .login-form {
 	margin:30px 0;
 }
-.course-reg {
-margin-left: 0;
-}
-.course-reg .col6 {
-width: 100%;
-}
+
 .shrtdtls li {
   display: inline-block;
   margin-right: 40px;
 }
 
+.courseDescription{
+	display:table-cell;
+	min-width:260px;
+}
+.courseSelector{
+	display:table-cell;
+	width:100%;
+	vertical-align:middle;
+	text-align:center;
+}
+.searchForm > li{
+	display:inline-block;
+	width:48%;
+}
+.findapractioner .leftColumn, .findapractioner .rightColumn{
+	float:left;
+	width:50%;
+}
 }
 
 /* DESKTOP*/
