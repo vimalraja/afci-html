@@ -651,16 +651,16 @@ html.mm-opening .mm-page, html.mm-opening #mm-blocker, html.mm-opening .mm-fixed
 
 
 /* FAQ */
-.faq #accordion h3{
+#accordion h3{
 	color:#CB4B00;
 	font-family: 'Lato', sans-serif;
 	font-size:2.0rem;
 	cursor:pointer;
 }
-.faq #accordion h3:hover{
+#accordion h3:hover{
 	text-decoration:underline;
 }
-.faq #accordion p{
+#accordion p{
 	font-size:1.4rem;
 	line-height:140%;
 	color:#000000;
@@ -1601,65 +1601,10 @@ input:-moz-placeholder {
 	width:99%;
 	margin:0 auto;
 }
-.contactus  h3{
-	font-family:lato, sans-serif;
-	font-weight:400;
-	line-height:144%;
-}
-.contactus .accordionWrap h4{
+.contactus p{
 	font-size:1.8rem;
-	color:#CB4B00;
-	
-	font-style:italic;
-	font-family:lora, serif;
-	margin-bottom:20px;
-}
-.contactus .accordionWrap  h5{
-	font-family:lato, sans-serif;
-	font-size:17px;
-	cursor:pointer;
-	outline:none;
-	margin-bottom:4px;
-}
-.contactus address{
-	line-height:143%;
-}
-.contactus .map_canvas{
-	margin-top:20px;
-}
-.staffContacts{
-	margin-top:80px;
-}
-.contactus h4{
-	font-weight:600;
-	margin-bottom:15px;
-}
-.staffContacts li{
-	line-height:207%;
-}
-.staffName{
-	color:#CB4B00;
-	padding-left:6px;
-}
-.contactus #accordion h5{
-	font-size:1.6rem;
-	color:#000000;
-	padding-left:20px;
-	margin-top:30px;
-	background:url(images/icon-expand-accordion.png) no-repeat left 3px;
-}
-.contactus #accordion h5.ui-accordion-header-active{
-	background:url(images/icon-collapse-accordion.png) no-repeat left 3px;
-}
-.contactus #accordion p{
-	line-height:177%;
-	color:#CB4B00;
-	padding-left:60px;
-}
-.accordionWrap{
-	border-left:2px solid #FF6500;
-	padding-left:15px;
-	margin:20px 0 60px 50px;
+	font-family:lora, sans-serif;
+	line-height:26px;
 }
 /* TAB*/
 @media (min-width:768px) {
