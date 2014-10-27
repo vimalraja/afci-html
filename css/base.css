@@ -1,0 +1,98 @@
+@charset "IBM437";
+.clfx :before, .clfx :after {
+  content: '';
+  display: table;
+}
+.clfx :after {
+  clear: both;
+}
+@media only screen and (max-width: 1024px) {
+  .course-reg {
+    margin-left: 0;
+  }
+  .course-reg .col6 {
+    width: 100%;
+  }
+
+  .sidebar.sncsidebar {
+    display: none !important;
+  }
+
+  .slide-wrap {
+    width: 98%;
+  }
+
+  
+}
+@media only screen and (max-width: 768px) {
+  .member-login {
+    padding-bottom: 40px;
+    background: url(../images/bg-hr.png) no-repeat center bottom;
+  }
+
+  .login-form {
+    margin: 30px auto;
+  }
+
+  .login-page.sidebar {
+    display: block;
+  }
+
+  .shrtdtls li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .story-slider .stlarge {
+    width: 100%;
+  }
+  .story-slider .stdesc {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .flex-direction-nav a {
+    top: 95%;
+  }
+
+  .sliderController li, .more-stories li {
+    width: 41.05%;
+  }
+  .sliderController li:after, .more-stories li:after {
+    display: none;
+  }
+  .sliderController .stRow, .more-stories .stRow {
+    margin: 0 -4%;
+  }
+
+  .tab-wrapper {
+    width: 100%;
+  }
+
+  ul.tabs li {
+    padding: 5px 18.5%;
+  }
+
+  .tab-container {
+    width: 86%;
+    padding-right: 10px;
+  }
+
+  .staff {
+    width: 97%;
+  }
+
+  .snbsidebar {
+    display: block;
+    width: 97%;
+  }
+
+  .tab-content .staff-info strong {
+    line-height: 20px;
+  }
+
+  .tab-content .staff-img {
+    width: 29.62%;
+  }
+}
